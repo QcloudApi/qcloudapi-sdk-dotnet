@@ -13,7 +13,7 @@ namespace QCloudAPI_SDK.Common
     /// </summary>
     class Request
     {
-        private static string VERSION = "SDK_DOTNET_1.0";
+        private static string VERSION = "SDK_DOTNET_1.1";
 
         public static void GetParams(SortedDictionary<string, object> requestParams, string secretId, string secretKey, 
             string requestMethod, string requestHost, string requestPath)

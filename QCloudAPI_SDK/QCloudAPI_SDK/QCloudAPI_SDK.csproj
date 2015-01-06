@@ -54,6 +54,7 @@
     <Compile Include="Module\Sec.cs" />
     <Compile Include="Module\Trade.cs" />
     <Compile Include="Demo.cs" />
+    <Compile Include="Module\Vod.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
