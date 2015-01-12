@@ -20,7 +20,7 @@ namespace QCloudAPI_SDK
             SortedDictionary<string, object> requestParams = new SortedDictionary<string, object>(StringComparer.Ordinal);
             requestParams["offset"] = 0;
             requestParams["limit"] = 3;
-            Console.WriteLine(module.GenerateUrl("DescribeInstances", requestParams));
+            //Console.WriteLine(module.GenerateUrl("DescribeInstances", requestParams));
             Console.WriteLine(module.Call("DescribeInstances", requestParams));
 
 

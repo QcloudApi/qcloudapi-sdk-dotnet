@@ -48,9 +48,7 @@ namespace QCloudAPI_SDK.Common
             string paramStr = "";
             foreach (string key in requestParams.Keys)
             {
-                if (key == "Signature")
-                    continue;
-                paramStr += string.Format("{0}={1}&", key, requestParams[key]);
+                paramStr += string.Format("{0}={1}&", key, HttpUtility.UrlEncode(requestParams[key].ToString()));
             }
             paramStr = paramStr.TrimEnd('&');
             return paramStr;
