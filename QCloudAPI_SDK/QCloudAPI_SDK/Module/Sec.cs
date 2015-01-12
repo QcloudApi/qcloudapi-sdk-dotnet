@@ -8,7 +8,7 @@ namespace QCloudAPI_SDK.Module
     {
         public Sec()
         {
-            serverHost = "sec.api.qcloud.com";
+            serverHost = "csec.api.qcloud.com";
         }
     }
 }
