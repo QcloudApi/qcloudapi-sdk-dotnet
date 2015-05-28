@@ -55,6 +55,7 @@
     <Compile Include="Module\Trade.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="Module\Vod.cs" />
+	<Compile Include="Module\Yunsou.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

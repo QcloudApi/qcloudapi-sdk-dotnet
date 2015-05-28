@@ -30,7 +30,7 @@ namespace QCloudAPI_SDK.Common
             {
                 if (key == "Signature")
                     continue;
-                retStr += string.Format("{0}={1}&", key, requestParams[key]);
+                retStr += string.Format("{0}={1}&", key.Replace("_", "."), requestParams[key]);
             }
             return "?" + retStr.TrimEnd('&');
         }
