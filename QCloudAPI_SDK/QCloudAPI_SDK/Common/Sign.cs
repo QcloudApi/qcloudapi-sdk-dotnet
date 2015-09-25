@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Security.Cryptography;
@@ -29,7 +29,13 @@ namespace QCloudAPI_SDK.Common
             foreach (string key in requestParams.Keys)
             {
                 if (key == "Signature")
+                {
                     continue;
+                }
+                if (requestMethod == "GET" && requestParams[key].ToString().Substring(0, 1).Equals("@"))
+                {
+                    continue;
+                }
                 retStr += string.Format("{0}={1}&", key.Replace("_", "."), requestParams[key]);
             }
             return "?" + retStr.TrimEnd('&');
