@@ -45,6 +45,7 @@
     <Compile Include="Common\Request.cs" />
     <Compile Include="Common\Sign.cs" />
     <Compile Include="Module\Base.cs" />
+    <Compile Include="Module\Account.cs" />
     <Compile Include="Module\Cdb.cs" />
     <Compile Include="Module\Cdn.cs" />
     <Compile Include="Module\Cvm.cs" />
