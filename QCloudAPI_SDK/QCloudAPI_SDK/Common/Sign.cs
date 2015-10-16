@@ -32,7 +32,7 @@ namespace QCloudAPI_SDK.Common
                 {
                     continue;
                 }
-                if (requestMethod == "GET" && requestParams[key].ToString().Substring(0, 1).Equals("@"))
+                if (requestMethod == "POST" && requestParams[key].ToString().Substring(0, 1).Equals("@"))
                 {
                     continue;
                 }
