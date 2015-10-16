@@ -58,6 +58,7 @@
     <Compile Include="Module\Vod.cs" />
     <Compile Include="Module\Yunsou.cs" />
     <Compile Include="Module\Wenzhi.cs" />
+    <Compile Include="Module\Market.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
