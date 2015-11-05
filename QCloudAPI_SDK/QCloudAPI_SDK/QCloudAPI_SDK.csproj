@@ -54,6 +54,7 @@
     <Compile Include="Module\Monitor.cs" />
     <Compile Include="Module\Sec.cs" />
     <Compile Include="Module\Trade.cs" />
+    <Compile Include="Module\Bill.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="Module\Vod.cs" />
     <Compile Include="Module\Yunsou.cs" />
