@@ -61,6 +61,8 @@
     <Compile Include="Module\Yunsou.cs" />
     <Compile Include="Module\Wenzhi.cs" />
     <Compile Include="Module\Market.cs" />
+    <Compile Include="Module\Eip.cs" />
+    <Compile Include="Module\Live.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
