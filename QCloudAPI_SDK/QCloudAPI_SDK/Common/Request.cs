@@ -14,6 +14,7 @@ namespace QCloudAPI_SDK.Common
     class Request
     {
         private static string VERSION = "SDK_DOTNET_1.1";
+        private static int timeOut = 10000;//设置连接超时时间，默认10秒，用户可以根据具体需求适当更改timeOut的值
 
         public static void GetParams(SortedDictionary<string, object> requestParams, string secretId, string secretKey, 
             string requestMethod, string requestHost, string requestPath)
@@ -94,6 +95,7 @@ namespace QCloudAPI_SDK.Common
             var request = (HttpWebRequest)HttpWebRequest.Create(url);
             request.Accept = "*/*";
             request.KeepAlive = true;
+            request.Timeout = timeOut;
             request.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)";
             if (requestMethod == "POST")
             {
