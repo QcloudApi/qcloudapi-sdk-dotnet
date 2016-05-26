@@ -63,6 +63,9 @@
     <Compile Include="Module\Market.cs" />
     <Compile Include="Module\Eip.cs" />
     <Compile Include="Module\Live.cs" />
+	<Compile Include="Module\Cbs.cs" />
+	<Compile Include="Module\Snapshot.cs" />
+	<Compile Include="Module\Scaling.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
