@@ -3,7 +3,7 @@
 qcloudapi-sdk-dotnet是为了让.Net开发者能够在自己的代码里更快捷方便的使用腾讯云的API而开发的SDK工具包。
 
 #### 更新
-[7/15]增加Tdsql模块
+[7/15] 增加Tdsql模块
 
 #### 资源
 
