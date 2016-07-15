@@ -67,6 +67,7 @@
     <Compile Include="Module\Snapshot.cs" />
     <Compile Include="Module\Scaling.cs" />
     <Compile Include="Module\Cmem.cs" />
+    <Compile Include="Module\Tdsql.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
