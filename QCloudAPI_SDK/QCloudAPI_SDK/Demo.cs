@@ -20,6 +20,8 @@ namespace QCloudAPI_SDK
             SortedDictionary<string, object> requestParams = new SortedDictionary<string, object>(StringComparer.Ordinal);
             requestParams["offset"] = 0;
             requestParams["limit"] = 3;
+	    //您可以在这里指定签名算法，不指定默认为HmacSHA1		
+	    //requestParams["SignatureMethod"] = "HmacSHA256";
             //Console.WriteLine(module.GenerateUrl("DescribeInstances", requestParams));
             Console.WriteLine(module.Call("DescribeInstances", requestParams));
 
