@@ -28,7 +28,12 @@ namespace QCloudAPI_SDK.Common
             requestParams.Add("Timestamp", (unixTime / 1000).ToString());
             requestParams.Add("RequestClient", VERSION);
             string plainText = Sign.MakeSignPlainText(requestParams, requestMethod, requestHost, requestPath);
-            string sign = Sign.Signature(plainText, secretKey);
+            string SignatureMethod = "HmacSHA1";
+            if (requestParams.ContainsKey("SignatureMethod") && requestParams["SignatureMethod"] == "HmacSHA256")
+            {
+                SignatureMethod = "HmacSHA256";
+            }
+            string sign = Sign.Signature(plainText, secretKey, SignatureMethod);
             requestParams.Add("Signature", sign);
         }
 
@@ -74,7 +79,12 @@ namespace QCloudAPI_SDK.Common
             }
             requestParams["RequestClient"] = VERSION;
             String plainText = Sign.MakeSignPlainText(requestParams, requestMethod, requestHost, requestPath);
-            requestParams["Signature"] = Sign.Signature(plainText, secretKey);
+            string SignatureMethod = "HmacSHA1";
+            if (requestParams.ContainsKey("SignatureMethod") && requestParams["SignatureMethod"]=="HmacSHA256")
+            {
+                SignatureMethod = "HmacSHA256";
+            }
+            requestParams["Signature"] = Sign.Signature(plainText, secretKey, SignatureMethod);
             string url = "https://" + requestHost + requestPath;
             return SendRequest(url, requestParams, requestMethod, fileName);
         }
