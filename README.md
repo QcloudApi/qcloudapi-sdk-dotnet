@@ -34,8 +34,8 @@ qcloudapi-sdk-dotnet是为了让.Net开发者能够在自己的代码里更快�
             SortedDictionary<string, object> requestParams = new SortedDictionary<string, object>(StringComparer.Ordinal);
             requestParams["offset"] = 0;
             requestParams["limit"] = 3;
-	    //在这里指定所用的签名算法，不指定默认为HmacSHA1
-   	    //requestParams["SignatureMethod"] = "HmacSHA256";
+	    //在这里指定所用的签名算法，不指定默认为HmacSHA1
+	    //requestParams["SignatureMethod"] = "HmacSHA256";
             Console.WriteLine(module.GenerateUrl("DescribeInstances", requestParams));
             Console.WriteLine(module.Call("DescribeInstances", requestParams));
 
