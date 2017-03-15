@@ -14,7 +14,7 @@ namespace QCloudAPI_SDK.Common
         ///<param name="signStr">被加密串</param>
         ///<param name="secret">加密密钥</param>
         ///<returns>签名</returns>
-        public static string Signature(string signStr, string secret)
+        public static string Signature(string signStr, string secret, String SignatureMethod)
         {
             if (SignatureMethod == "HmacSHA256")
                 using (HMACSHA256 mac = new HMACSHA256(Encoding.UTF8.GetBytes(secret)))
