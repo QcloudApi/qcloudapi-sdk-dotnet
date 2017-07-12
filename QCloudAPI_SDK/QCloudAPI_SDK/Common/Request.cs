@@ -78,10 +78,6 @@ namespace QCloudAPI_SDK.Common
                 requestParams.Add("Timestamp", (unixTime / 1000).ToString());
             }
             requestParams["RequestClient"] = VERSION;
-            if (!requestParams.ContainsKey("Version"))
-            {
-                requestParams["Version"] = "2017-03-12";
-            }
             String plainText = Sign.MakeSignPlainText(requestParams, requestMethod, requestHost, requestPath);
             string SignatureMethod = "HmacSHA1";
             if (requestParams.ContainsKey("SignatureMethod") && requestParams["SignatureMethod"]=="HmacSHA256")
