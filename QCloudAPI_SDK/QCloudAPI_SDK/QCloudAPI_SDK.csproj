@@ -70,6 +70,7 @@
     <Compile Include="Module\Scaling.cs" />
     <Compile Include="Module\Cmem.cs" />
     <Compile Include="Module\Tdsql.cs" />
+    <Compile Include="Module\Feecenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

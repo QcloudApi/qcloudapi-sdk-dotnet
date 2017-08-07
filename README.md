@@ -4,6 +4,8 @@ qcloudapi-sdk-dotnet是为了让.Net开发者能够在自己的代码里更快�
 
 #### 更新
 
+*[2017/7/31] 新增Feecenter模块
+
 *[2017/7/31] 新增Bm和Bmlb模块
 
 *[2017/7/12] 回滚：不默认传Version参数
