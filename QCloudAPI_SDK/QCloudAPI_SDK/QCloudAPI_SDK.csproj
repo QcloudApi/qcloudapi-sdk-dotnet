@@ -71,6 +71,8 @@
     <Compile Include="Module\Cmem.cs" />
     <Compile Include="Module\Tdsql.cs" />
     <Compile Include="Module\Feecenter.cs" />
+    <Compile Include="Module\Bmeip.cs" />
+    <Compile Include="Module\Bmvpc.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
