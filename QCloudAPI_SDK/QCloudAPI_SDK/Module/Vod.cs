@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Vod : Base
+    public class Vod : Base
     {
         public Vod()
         {

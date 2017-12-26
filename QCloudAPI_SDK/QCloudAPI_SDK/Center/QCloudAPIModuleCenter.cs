@@ -9,7 +9,7 @@ namespace QCloudAPI_SDK.Center
     /// <summary>
     /// 模块调用类 
     /// </summary>
-    class QCloudAPIModuleCenter
+    public class QCloudAPIModuleCenter
     {
         private Base module;
 

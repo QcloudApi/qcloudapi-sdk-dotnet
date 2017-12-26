@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Market : Base
+    public class Market : Base
     {
         public Market()
         {

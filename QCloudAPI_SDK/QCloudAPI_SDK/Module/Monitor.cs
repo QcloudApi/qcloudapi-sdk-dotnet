@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Monitor : Base
+    public class Monitor : Base
     {
         public Monitor()
         {

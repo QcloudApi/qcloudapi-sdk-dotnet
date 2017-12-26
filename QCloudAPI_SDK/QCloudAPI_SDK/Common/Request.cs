@@ -11,7 +11,7 @@ namespace QCloudAPI_SDK.Common
     /// <summary>
     /// 请求调用类
     /// </summary>
-    class Request
+    public class Request
     {
         private static string VERSION = "SDK_DOTNET_1.1";
         private static int timeOut = 10000;//设置连接超时时间，默认10秒，用户可以根据具体需求适当更改timeOut的值

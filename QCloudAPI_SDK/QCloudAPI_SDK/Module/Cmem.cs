@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Cmem : Base
+    public class Cmem : Base
     {
         public Cmem()
         {

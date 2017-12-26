@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Trade : Base
+    public class Trade : Base
     {
         public Trade()
         {

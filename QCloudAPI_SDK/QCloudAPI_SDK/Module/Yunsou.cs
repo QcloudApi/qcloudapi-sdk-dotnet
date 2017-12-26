@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Yunsou : Base
+    public class Yunsou : Base
     {
         public Yunsou()
         {

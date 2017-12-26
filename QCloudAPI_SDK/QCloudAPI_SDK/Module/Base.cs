@@ -6,7 +6,7 @@ using QCloudAPI_SDK.Common;
 
 namespace QCloudAPI_SDK.Module
 {
-    abstract class Base
+    public abstract class Base
     {
         protected string serverHost = "";
         protected string serverUri = "/v2/index.php";

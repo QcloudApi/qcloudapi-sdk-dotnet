@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Image : Base
+    public class Image : Base
     {
         public Image()
         {

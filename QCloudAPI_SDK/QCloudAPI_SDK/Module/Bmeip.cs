@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Bmeip : Base
+    public class Bmeip : Base
     {
         public Bmeip()
         {

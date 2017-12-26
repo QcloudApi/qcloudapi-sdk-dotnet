@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Cdn : Base
+    public class Cdn : Base
     {
         public Cdn()
         {

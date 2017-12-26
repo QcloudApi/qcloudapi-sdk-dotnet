@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Bmlb : Base
+    public class Bmlb : Base
     {
         public Bmlb()
         {

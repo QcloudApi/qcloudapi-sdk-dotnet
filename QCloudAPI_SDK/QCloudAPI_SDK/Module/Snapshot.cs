@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Snapshot : Base
+    public class Snapshot : Base
     {
         public Snapshot()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Wenzhi : Base
+    public class Wenzhi : Base
     {
         public Wenzhi()
         {

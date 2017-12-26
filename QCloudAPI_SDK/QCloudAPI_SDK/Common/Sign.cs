@@ -8,7 +8,7 @@ namespace QCloudAPI_SDK.Common
     /// <summary>
     /// 签名类
     /// </summary>
-    class Sign
+    public class Sign
     {
         ///<summary>生成签名</summary>
         ///<param name="signStr">被加密串</param>

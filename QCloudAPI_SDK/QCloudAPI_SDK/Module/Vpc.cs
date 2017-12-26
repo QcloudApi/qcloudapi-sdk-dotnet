@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QCloudAPI_SDK.Module
 {
-    class Vpc : Base
+    public class Vpc : Base
     {
         public Vpc()
         {
