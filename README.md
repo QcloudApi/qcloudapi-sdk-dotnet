@@ -2,17 +2,6 @@
 
 qcloudapi-sdk-dotnet是为了让.Net开发者能够在自己的代码里更快捷方便的使用腾讯云的API而开发的SDK工具包。
 
-#### 更新
-
-* 2017-11-12 新增Bgpip模块
-* 2017-07-31 新增Bmeip和Bmvpc模块
-* 2017-07-31 新增Feecenter模块
-* 2017-07-31 新增Bm和Bmlb模块
-* 2017-07-12 回滚：不默认传Version参数
-* 2017-05-19 设置接口默认Version： Cvm模块新版本API已经上线，通过是否传Version区分新旧版本。SDK默认调用新接口，因此需要增加Version的默认设置。 CvmAPI接口介绍见：https://www.qcloud.com/document/api/213/569
-* 2017-03-10 增加HmacSHA256签名算法的兼容
-* 07-15 增加Tdsql模块
-
 #### 资源
 
 * [公共参数](http://wiki.qcloud.com/wiki/%E5%85%AC%E5%85%B1%E5%8F%82%E6%95%B0)

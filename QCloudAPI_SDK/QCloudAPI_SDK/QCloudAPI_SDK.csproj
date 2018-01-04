@@ -92,6 +92,7 @@
     <Compile Include="Module\Bmeip.cs" />
     <Compile Include="Module\Bmvpc.cs" />
     <Compile Include="Module\Bgpip.cs" />
+    <Compile Include="Module\Partners.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
