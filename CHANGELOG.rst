@@ -5,6 +5,7 @@ CHANGELOG
 latest (now)
 ============
 
+* add batch module
 * add partners module
 
 history
