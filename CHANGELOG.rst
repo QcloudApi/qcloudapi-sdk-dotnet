@@ -5,6 +5,7 @@ CHANGELOG
 latest (now)
 ============
 
+* add athena module
 * add batch module
 * add partners module
 

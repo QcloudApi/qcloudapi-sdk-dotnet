@@ -94,6 +94,7 @@
     <Compile Include="Module\Bgpip.cs" />
     <Compile Include="Module\Partners.cs" />
     <Compile Include="Module\Batch.cs" />
+    <Compile Include="Module\Athena.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
