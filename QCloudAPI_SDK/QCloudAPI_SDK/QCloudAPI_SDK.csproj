@@ -95,6 +95,7 @@
     <Compile Include="Module\Partners.cs" />
     <Compile Include="Module\Batch.cs" />
     <Compile Include="Module\Athena.cs" />
+    <Compile Include="Module\Tbaas.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
