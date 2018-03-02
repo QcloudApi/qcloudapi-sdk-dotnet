@@ -5,6 +5,7 @@ CHANGELOG
 latest (now)
 ============
 
+* add emr module
 * add tbaas module
 * add athena module
 * add batch module
