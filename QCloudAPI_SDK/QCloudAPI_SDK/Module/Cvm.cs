@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QCloudAPI_SDK.Module
+﻿namespace QCloudAPI_SDK.Module
 {
     public class Cvm : Base
     {

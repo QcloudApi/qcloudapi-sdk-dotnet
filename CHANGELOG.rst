@@ -5,6 +5,7 @@ CHANGELOG
 latest (now)
 ============
 
+* support dymanic module: now user can specify a module which is not presented in Module package to Morphling class to act as it is already defined.
 * add emr module
 * add tbaas module
 * add athena module
