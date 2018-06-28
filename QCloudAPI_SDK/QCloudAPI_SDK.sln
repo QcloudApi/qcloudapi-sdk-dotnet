@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QCloudAPI_SDK", "QCloudAPI_SDK\QCloudAPI_SDK.csproj", "{3DFE79C5-B2F4-4254-81B9-1FE0B42239EF}"
 EndProject
 Global
